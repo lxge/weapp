@@ -15,6 +15,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  bindBottomTap: function() {
+    wx.navigateTo({
+      url: '../test/test'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

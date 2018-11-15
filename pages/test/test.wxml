@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<text bindtap="bindVideoTap">pages/test/test.wxml</text> 
+<live-player src="rtmp://58.200.131.2:1935/livetv/hunantv" autoplay="true" id="player"></live-player>
+<text bindtap="bindVideoTap">{{msg}}</text>
